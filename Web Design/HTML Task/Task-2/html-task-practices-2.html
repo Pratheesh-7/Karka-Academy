@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-task-practices-2</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    Task Practice 3 : Using Colspan
+    Merge cells to show summarized expenses.
+    <br>
+    <h2>HTML colspan Attribute</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Expense</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Arun</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>$8 </td>
+            </tr>
+            <tr>
+                <td colspan="2">Sum: $18</td>
+            </tr>
+        </body>
+    </table>
+    <br>
+    <br>
+    Task Practice 4 : Table with Name & Age
+    Display names, ages, and an average age row.
+    <br>
+    <br>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="4">FULL NAME</th>
+                <th colspan="4">AGE</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td colspan="2">Fabio</td>
+                <td colspan="2">Cimo</td>
+                <td colspan="2">20</td>
+            </tr>
+            <tr>
+                <td colspan="2">Jasmin</td>
+                <td colspan="2">Brown</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td colspan="2">James</td>
+                <td colspan="2">Wick</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td colspan="2">Donald</td>
+                <td colspan="2">Dawn</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td colspan="4">Average Age </td>
+                <td>22</td>
+            </tr>
+        </body>
+    </table>
+    <br>
+    <br>
+Task Practice 7 : Time Table
+Create a class schedule with merged cells.
+<br>
+<br>
+<table border="2">
+    <thead>
+        <tr>
+            <th colspan="7">Time Table</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td rowspan="7">Hours</td>
+            <th>mon</th>
+            <th>tues</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th colspan="8">Lunch</th>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+        </tr>
+    </body>
+</table>
+<br>
+<br>
+</body>
+</html>
